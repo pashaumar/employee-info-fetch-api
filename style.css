@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+.title {
+  color: rgba(33, 140, 116, 1);
+  width: 40%;
+  margin-left: 20px;
+  letter-spacing: 2px;
+}
+.search-container {
+  width: 30%;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+#search {
+  outline: none;
+  border: none;
+  height: 30px;
+  width: 70%;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+#search:focus {
+  border: 2px solid rgba(33, 140, 116, 1);
+}
+.fa-search {
+  color: rgba(33, 140, 116, 1);
+  font-size: 1.8rem;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.content-container {
+  width: 100%;
+  margin: 10px 0;
+}
+.content-headings {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+.content-heading h4 {
+  letter-spacing: 1px;
+}
+.first-name-heading,
+.last-name-heading,
+.age-heading,
+.email-heading,
+.website-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pagination {
+  margin: 20px auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.pagination-button {
+  margin-left: 5px;
+  background: none;
+  outline: none;
+  border: 1px solid rgba(33, 140, 116, 1);
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+  color: rgba(33, 140, 116, 1);
+  transition: all 0.5s ease;
+}
+.pagination-button:hover {
+  color: white;
+  border: 1px solid white;
+  background-color: rgba(33, 140, 116, 1);
+}
+.backward-button,
+.forward-button {
+  margin: 5px;
+  background: none;
+  outline: none;
+  border: 1px solid rgba(33, 140, 116, 1);
+  width: 50px;
+  height: 30px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.backward-button:hover,
+.forward-button:hover {
+  border: 1px solid white;
+  background-color: rgba(33, 140, 116, 1);
+}
+.backward-button i,
+.forward-button i {
+  color: rgba(33, 140, 116, 1);
+}
+.backward-button:hover i,
+.forward-button:hover i {
+  color: white;
+}
